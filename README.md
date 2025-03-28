@@ -11,5 +11,5 @@ Sync period 30
 
 sudo systemctl restart ritual-network.service
 
-nano ~/infernet-container-starter/deploy/config.json
-nano ~/infernet-container-starter/projects/hello-world/container/config.json
+  nano ~/infernet-container-starter/deploy/config.json
+  nano ~/infernet-container-starter/projects/hello-world/container/config.json
