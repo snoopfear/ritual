@@ -1,9 +1,6 @@
 # ritual
 
-
-wget https://raw.githubusercontent.com/snoopfear/ritual/refs/heads/main/rit_ins.sh
-chmod +x rit_ins.sh
-./rit_ins.sh
+wget https://raw.githubusercontent.com/snoopfear/ritual/refs/heads/main/rit_ins.sh && chmod +x rit_ins.sh && ./rit_ins.sh
 
 docker logs -f --tail 50 infernet-node
 
