@@ -412,6 +412,14 @@ EOL
   
   echo "Checking node logs..."
   docker logs infernet-node 2>&1 | tail -n 20
+
+  echo "docker logs -f --tail 50 infernet-node"
+
+  echo "sudo systemctl restart ritual-network.service"
+
+  echo "nano ~/infernet-container-starter/deploy/config.json"
+
+  echo "nano ~/infernet-container-starter/projects/hello-world/container/config.json"
   
   echo ""
   echo "Press any key to return to menu..."
