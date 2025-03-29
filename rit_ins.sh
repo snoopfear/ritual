@@ -182,7 +182,7 @@ EOL
 
 # anvil's third default address
 sender := ${private_key}
-RPC_URL := https://mainnet.base.org/
+RPC_URL := https://base-mainnet.g.alchemy.com/v2/$APIKEY
 
 # deploying the contract
 deploy:
