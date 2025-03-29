@@ -250,7 +250,7 @@ EOL
   sudo systemctl start ritual-network.service
   
   # Verify service is running
-  sleep 5
+  sleep 35
   if sudo systemctl is-active --quiet ritual-network.service; then
     echo "? Ritual Network service started successfully!"
   else
@@ -265,7 +265,7 @@ EOL
   
   # Wait a bit for deployment to start
   echo "Waiting for deployment to initialize..."
-  sleep 10
+  sleep 35
   
   # Check service status again
   echo "Verifying service status..."
@@ -274,7 +274,7 @@ EOL
   else
     echo "?? Service not running correctly. Attempting to restart..."
     sudo systemctl restart ritual-network.service
-    sleep 5
+    sleep 35
     sudo systemctl status ritual-network.service
   fi
   
@@ -290,7 +290,7 @@ EOL
   
   # Kill any running anvil processes
   pkill anvil 2>/dev/null || true
-  sleep 2
+  sleep 35
   
   # Install Foundry
   curl -L https://foundry.paradigm.xyz | bash
