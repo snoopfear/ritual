@@ -14,3 +14,8 @@ sudo systemctl restart ritual-network.service
   nano ~/infernet-container-starter/deploy/config.json
 
   nano ~/infernet-container-starter/projects/hello-world/container/config.json
+
+1
+
+wget https://raw.githubusercontent.com/snoopfear/ritual/refs/heads/main/rit_ins1.sh && chmod +x rit_ins1.sh && ./rit_ins1.sh
+
