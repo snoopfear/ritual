@@ -113,7 +113,7 @@ install_ritual() {
         "snapshot_sync": {
           "sleep": 3,
           "batch_size": 800,
-          "starting_sub_id": 230000,
+          "starting_sub_id": 240000,
           "sync_period": 30
         }
     },
